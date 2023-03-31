@@ -11,7 +11,7 @@ public class _Predicate {
         System.out.println(validUserName.test("user@1"));
         System.out.println("is Email Valid: "+ validUserName.and(validEmail).test("yasar@gmail.com"));
         System.out.println("Substring?: "+contains.test("station","manifestation"));
-        System.out.println("Substring?: "+contains.test("one","Anonymous"));
+        System.out.println("Substring?: "+contains.test("one","Anonymous    "));
     }
 
 
